@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eunoia</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="landing-page">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- </label> -->
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Calm</a></li>
+            <li class="nav-item"><a href="#">Articles</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+          </ul>
+          <div class="btn-nav">
+            <button id="open__nav-btn"><i class="bi bi-list"></i></button>
+            <button id="close__nav-btn"><i class="bi bi-x"></i></button>
+          </div>
+          <h2 class="name">EUNOIA</h2>
+          <button type="submit" class="btn"><a href="#">Get Help</a></button>
+        </div>
+      </nav>
+      <div class="judul">
+        <h1 class="m">Mental</h1>
+        <div class="sub">
+          <h1 class="h">Health</h1>
+          <h1 class="w">Wealth</h1>
+        </div>
+        <h1 class="i">is</h1>
+      </div>
+      <div class="cover">
+        <img src="./images/women.png" alt="" />
+      </div>
+    </section>
+
+    <section class="mood">
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F9D4F4" />
+            <stop offset="100%" stop-color="#C5EEE2" />
+          </linearGradient>
+        </defs>
+        <path
+          fill="url(#gradient)"
+          fill-opacity="1"
+          d="M0,128L80,133.3C160,139,320,149,
+            480,138.7C640,128,800,96,960,80C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,
+            0L0,0Z"
+        ></path>
+      </svg>
+      <div class="title-mood">
+        <h1>How's ur Mood Today?</h1>
+      </div>
+      <div class="contain">
+        <div class="wrapper">
+          <div class="section">
+            <ul class="emojis">
+              <li class="slide-emoji"><img src="./images/happy.png" alt="" /></li>
+              <li><img src="./images/good.png" alt="" /></li>
+              <li><img src="./images/bad.png" alt="" /></li>
+              <li><img src="./images/angry.png" alt="" /></li>
+            </ul>
+          </div>
+          <div class="slider">
+            <div class="thumb"><span></span></div>
+            <div class="progress-bar"></div>
+            <input type="range" min="0" value="0" max="100" />
+          </div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="title-note">
+          <h2>Can We Know <span>Why</span>?</h2>
+        </div>
+        <div class="desc-note">
+          <img src="/images/klip.png" alt="" />
+          <textarea name="" id="note" placeholder="Type here..."></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section class="calm">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="url(#gradient)"
+          fill-opacity="1"
+          d="M0,224L80,229.3C160,235,320,245,480,229.3C640,213,800,171,
+            960,165.3C1120,160,1280,192,1360,208L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,
+            640,320,480,320C320,320,160,320,80,320L0,320Z">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#F9D4F4" />
+              <stop offset="100%" stop-color="#C5EEE2" />
+            </linearGradient>
+          </defs>
+        </path>
+      </svg>
+      <div class="container-calm">
+        <div class="wrap-calm">
+          <div class="img-calm">
+            <img src="/images/cw.png" alt="" />
+          </div>
+        </div>
+        <div class="start-calm">
+          <div class="desc-calm">
+            <h2 class="a">Say Hello to</h2>
+            <h2 class="b">Eunoia</h2>
+            <p>lets heal together and be better</p>
+            <button class="btn-s"><a href="calm.html">Let's Start</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="cloud">
+        <img src="/images/cloud.png" alt="" />
+      </div>
+    </section>
+
+    <section class="article">
+      <h2><span>Latest</span> Articles</h2>
+      <div class="container-article">
+        <div class="wrap-article">
+          <img src="/images/heart.png" alt="" class="heart" />
+          <h3>How to Self-Love</h3>
+          <img src="/images/elips-1.png" alt="" class="elips" />
+        </div>
+        <div class="wrap-article">
+          <img src="/images/flower.png" alt="" class="flower" />
+          <h3 class="desc-flow">Happy Life: Control Succesful</h3>
+          <img src="/images/elips-2.png" alt="" class="elips" />
+        </div>
+        <div class="wrap-article-long">
+          <img src="/images/discuss.png" alt="" class="discuss" />
+          <h3>Krisis Kesehatan Mental pada Anak Muda: Apa yang Terjadi pada Generasi Kita?</h3>
+          <img src="/images/elips-3.png" alt="" class="elips-long" />
+        </div>
+      </div>
+      <div class="container-article">
+        <div class="wrap-article-long">
+          <img src="/images/discuss.png" alt="" class="discuss" />
+          <h3>Krisis Kesehatan Mental pada Anak Muda: Apa yang Terjadi pada Generasi Kita?</h3>
+          <img src="/images/elips-3.png" alt="" class="elips-long" />
+        </div>
+        <div class="wrap-article">
+          <img src="/images/heart.png" alt="" class="heart" />
+          <h3>How to Self-Love</h3>
+          <img src="/images/elips-1.png" alt="" class="elips" />
+        </div>
+        <div class="wrap-article">
+          <img src="/images/flower.png" alt="" class="flower" />
+          <h3 class="desc-flow">Happy Life: Control Succesful</h3>
+          <img src="/images/elips-2.png" alt="" class="elips" />
+        </div>
+      </div>
+    </section>
+
+    <section class="biodata"></section>
+
+    <footer id="footer">
+      <div class="contain-footer">
+        <div class="info">
+          <h2>EUNOIA</h2>
+          <div class="email">
+            <i class="bi bi-envelope-fill"></i>
+            <p>eunoia01@gmail.com</p>
+          </div>
+          <div class="location">
+            <i class="bi bi-geo-alt-fill"></i>
+            <p>Jl. Jamin Ginting Km. 11 No. 9C, Simpang Selayang, Kec. Medan Tuntungan, Kota Medan, Sumatera Utara 20135</p>
+          </div>
+        </div>
+        <div class="navigasi">
+          <h2>Navigasi</h2>
+          <p><a href="#">Home</a></p>
+          <p><a href="#">Calm</a></p>
+          <p><a href="#">Articles</a></p>
+          <p><a href="#">About</a></p>
+        </div>
+        <div class="sosmed">
+          <h2>Social Media</h2>
+          <div class="ig">
+            <i class="bi bi-instagram"></i>
+            <p><a href="#">Instagram</a></p>
+          </div>
+          <div class="fb">
+            <i class="bi bi-facebook"></i>
+            <p><a href="#">Facebook</a></p>
+          </div>
+          <div class="tw">
+            <i class="bi bi-twitter"></i>
+            <p><a href="#">Twitter</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-2">
+        <p>Copyright &copy; 2023 EUNOIA</p>
+      </div>
+    </footer>
+
+    <script>
+      const body = document.querySelector(".mood");
+      const emoji = document.querySelector(".slide-emoji");
+      const input = document.querySelector("input");
+      const bar = document.querySelector(".progress-bar");
+      const thumb = document.querySelector(".thumb");
+      input.oninput = () => {
+        let sliderValue = input.value;
+        thumb.style.left = sliderValue + "%";
+        bar.style.width = sliderValue + "%";
+        if (sliderValue < 20) {
+          emoji.style.marginLeft = "0px";
+          body.classList.add("like");
+          body.classList.remove("confuse");
+          body.classList.remove("angry");
+        }
+        if (sliderValue >= 40) {
+          emoji.style.marginLeft = "-140px";
+          body.classList.add("confuse");
+          body.classList.remove("angry");
+          body.classList.remove("like");
+        }
+        if (sliderValue >= 60) {
+          emoji.style.marginLeft = "-280px";
+        }
+        if (sliderValue >= 80) {
+          emoji.style.marginLeft = "-420px";
+          body.classList.add("angry");
+          body.classList.remove("confuse");
+          body.classList.remove("like");
+        }
+      };
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

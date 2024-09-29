@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUNOIA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar nav">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Calm</a></li>
+                    <li class="nav-item"><a href="#">Articles</a></li>
+                    <li class="nav-item"><a href="#">About</a></li>
+                </ul>
+                <h2 class="name judul">EUNOIA</h2>
+                <button type="submit" class="btn"><a href="#">Get Help</a></button>
+            </div>
+        </nav>
+    </header>
+    <section class="landing-page-calm">
+        <div class="l-page">
+            <img src="/images/bg-calm.png" alt="" class="bg-calm">
+            <div class="text-calm">
+                <div class="title-calm">
+                    <h2 class="title" id="main-title">Find Peace with Every Breathe</h2>
+                </div>
+                <div class="desc-calm">
+                      <p class="deskripsi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima est numquam eum totam. Quae omnis fugiat maiores ab eos, nam sunt dolore quia ad ullam, quaerat culpa eligendi ipsum qui natus quam odio expedita officia esse ex! Ratione nobis ea, sequi eius eveniet delectus a aliquam, tempore molestias rerum perferendis!</p>
+                    <button class="btn-s"><a href="breath.html" id="btn-s">Let's Start</a></button>
+                </div>
+            </div>
+            <div class="calm-img">
+                <img src="/images/breath.png" alt="" class="logo-breath main-img">
+            </div>
+            <ul class="item">
+                <li class="li-item" onclick="itemClick('images/breath.png', 'Find Peace with Every Breathe', 'breath.html')">
+                    <img src="/images/breath-1.png" alt="">
+                </li>
+                <li onclick="itemClick('images/cat-2.png', 'Express Your Thought', 'draw.html')">
+                    <img src="/images/cat.png" alt="">
+                </li>
+                <li onclick="itemClick('images/game-2.png', 'Distract Your Anxiety', 'memory.html')">
+                    <img src="/images/game.png" alt="" class="item-game">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script>
+        function itemClick(anything, newTitle, newButtonHref){
+            document.querySelector('.main-img').src = anything;
+            document.querySelector('#main-title').textContent = newTitle;
+            document.querySelector('#btn-s').href = newButtonHref;
+        }
+    </script>
+</body>
+</html>
